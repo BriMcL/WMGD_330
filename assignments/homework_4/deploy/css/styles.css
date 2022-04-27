@@ -332,7 +332,15 @@ h1 {
   padding-top: 50px;
   padding-bottom: 50px;
   grid-column: span 4; }
-
+  @media (min-width: 576px) {
+    .header {
+      background-color: #228547; } }
+  @media (min-width: 768px) {
+    .header {
+      background-color: #524798; } }
+  @media (min-width: 992px) {
+    .header {
+      background-color: #1B263B; } }
 .main-content-sidebar {
   background-color: #F71735;
   color: #FFFFFF;
@@ -341,14 +349,30 @@ h1 {
   padding-bottom: 50px;
   padding-left: 50px;
   grid-column: span 1; }
-
+  @media (min-width: 576px) {
+    .main-content-sidebar {
+      color: #1B263B; } }
+  @media (min-width: 768px) {
+    .main-content-sidebar {
+      color: #803841; } }
+  @media (min-width: 992px) {
+    .main-content-sidebar {
+      color: #FFFFFF; } }
 .main-content-body {
   background-color: #7799A5;
   color: #FFFFFF;
   text-align: left;
   padding: 50px;
   grid-column: span 2; }
-
+  @media (min-width: 576px) {
+    .main-content-body {
+      text-align: center; } }
+  @media (min-width: 768px) {
+    .main-content-body {
+      text-align: right; } }
+  @media (min-width: 992px) {
+    .main-content-body {
+      text-align: left; } }
 .main-content-ads {
   background-color: #1B263B;
   color: #FFFFFF;
@@ -357,7 +381,15 @@ h1 {
   padding-bottom: 50px;
   padding-left: 50px;
   grid-column: span 1; }
-
+  @media (min-width: 576px) {
+    .main-content-ads {
+      padding-top: 100px; } }
+  @media (min-width: 768px) {
+    .main-content-ads {
+      padding-top: 200px; } }
+  @media (min-width: 992px) {
+    .main-content-ads {
+      padding-top: 50px; } }
 .author {
   background-color: #524798;
   color: #FFFFFF;
@@ -365,7 +397,15 @@ h1 {
   padding-top: 50px;
   padding-bottom: 50px;
   grid-column: span 3; }
-
+  @media (min-width: 576px) {
+    .author {
+      grid-column: span 1; } }
+  @media (min-width: 768px) {
+    .author {
+      grid-column: span 2; } }
+  @media (min-width: 992px) {
+    .author {
+      grid-column: span 3; } }
 .footer {
   background-color: #803841;
   color: #FFFFFF;
@@ -373,3 +413,12 @@ h1 {
   padding-top: 50px;
   padding-bottom: 50px;
   grid-column: span 4; }
+  @media (min-width: 576px) {
+    .footer {
+      background-color: #7799A5; } }
+  @media (min-width: 768px) {
+    .footer {
+      background-color: #006494; } }
+  @media (min-width: 992px) {
+    .footer {
+      background-color: #803841; } }

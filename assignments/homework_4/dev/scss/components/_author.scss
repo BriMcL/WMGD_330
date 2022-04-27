@@ -5,4 +5,12 @@
     padding-top: 50px;
     padding-bottom: 50px;
     grid-column:span 3;
-}
+    @include sm {
+        grid-column:span 1;
+    }
+    @include md {
+        grid-column:span 2;
+    }
+    @include lg {
+        grid-column:span 3;}
+    }

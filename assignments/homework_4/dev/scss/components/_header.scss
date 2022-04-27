@@ -5,4 +5,13 @@
     padding-top: 50px;
     padding-bottom: 50px;
     grid-column:span 4;
+    @include sm {
+        background-color: $green;
+    }
+    @include md {
+        background-color: $purple;
+    }
+    @include lg {
+        background-color: $dark-blue;
+    }
 }
