@@ -1,24 +1,25 @@
 .main-content-sidebar{
-    background-color: $dark-blue;
+    background-color: $red;
     color: $white;
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 50px;
     grid-column:span 1;
 }
 .main-content-body{
     background-color: $grey;
     color: $white;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    text-align: left;
+    padding: 50px;
     grid-column:span 2;
 }
-.main-content-body{
-    background-color: $red;
+.main-content-ads{
+    background-color: $dark-blue;
     color: $white;
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 50px;
     grid-column:span 1;
 }

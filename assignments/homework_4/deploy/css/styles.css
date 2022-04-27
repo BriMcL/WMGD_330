@@ -326,7 +326,7 @@ h1 {
   font-weight: 300; }
 
 .header {
-  background-color: #006494;
+  background-color: #1B263B;
   color: #FFFFFF;
   text-align: center;
   padding-top: 50px;
@@ -334,28 +334,37 @@ h1 {
   grid-column: span 4; }
 
 .main-content-sidebar {
-  background-color: #1B263B;
+  background-color: #F71735;
   color: #FFFFFF;
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 50px;
   grid-column: span 1; }
 
 .main-content-body {
   background-color: #7799A5;
   color: #FFFFFF;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  text-align: left;
+  padding: 50px;
   grid-column: span 2; }
 
-.main-content-body {
-  background-color: #F71735;
+.main-content-ads {
+  background-color: #1B263B;
+  color: #FFFFFF;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  grid-column: span 1; }
+
+.author {
+  background-color: #524798;
   color: #FFFFFF;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  grid-column: span 1; }
+  grid-column: span 3; }
 
 .footer {
   background-color: #803841;
