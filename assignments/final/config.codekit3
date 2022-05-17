@@ -126,6 +126,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dev\/components\/header.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
+    },
     "\/dev\/components\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -198,7 +206,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components_scss\/_buttons.scss" : {
+    "\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -207,13 +215,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components_scss\/_buttons.css",
+      "oAP" : "\/dev\/scss\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components_scss\/_footer.scss" : {
+    "\/dev\/scss\/components\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -222,13 +230,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components_scss\/_footer.css",
+      "oAP" : "\/dev\/scss\/components\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components_scss\/_forms.scss" : {
+    "\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -237,13 +245,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components_scss\/_forms.css",
+      "oAP" : "\/dev\/scss\/components\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components_scss\/_header.scss" : {
+    "\/dev\/scss\/components\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -252,13 +260,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components_scss\/_header.css",
+      "oAP" : "\/dev\/scss\/components\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components_scss\/_hero.scss" : {
+    "\/dev\/scss\/components\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -267,13 +275,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components_scss\/_hero.css",
+      "oAP" : "\/dev\/scss\/components\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components_scss\/_main-content.scss" : {
+    "\/dev\/scss\/components\/_main-content.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -282,13 +290,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components_scss\/_main-content.css",
+      "oAP" : "\/dev\/scss\/components\/_main-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components_scss\/_navigation.scss" : {
+    "\/dev\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -297,7 +305,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components_scss\/_navigation.css",
+      "oAP" : "\/dev\/scss\/components\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
