@@ -29,6 +29,32 @@
       "oAP" : "\/deploy\/img\/favicon.ico",
       "oF" : 0
     },
+    "\/deploy\/img\/mobile_logo.png" : {
+      "ft" : 32768,
+      "iS" : 3519,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/mobile_logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/text_logo.png" : {
+      "ft" : 32768,
+      "iS" : 4106,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/text_logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -100,6 +126,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dev\/components\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -164,7 +198,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_buttons.scss" : {
+    "\/dev\/scss\/components_scss\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -173,13 +207,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oAP" : "\/dev\/scss\/components_scss\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_footer.scss" : {
+    "\/dev\/scss\/components_scss\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -188,13 +222,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_footer.css",
+      "oAP" : "\/dev\/scss\/components_scss\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_forms.scss" : {
+    "\/dev\/scss\/components_scss\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -203,13 +237,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_forms.css",
+      "oAP" : "\/dev\/scss\/components_scss\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_header.scss" : {
+    "\/dev\/scss\/components_scss\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -218,13 +252,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_header.css",
+      "oAP" : "\/dev\/scss\/components_scss\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_hero.scss" : {
+    "\/dev\/scss\/components_scss\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -233,13 +267,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_hero.css",
+      "oAP" : "\/dev\/scss\/components_scss\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_main-content.scss" : {
+    "\/dev\/scss\/components_scss\/_main-content.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -248,13 +282,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_main-content.css",
+      "oAP" : "\/dev\/scss\/components_scss\/_main-content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_navigation.scss" : {
+    "\/dev\/scss\/components_scss\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -263,7 +297,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oAP" : "\/dev\/scss\/components_scss\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -313,22 +347,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
-    },
-    "\/dev\/section-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-1.html",
-      "oF" : 0
-    },
-    "\/dev\/section-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-2.html",
-      "oF" : 0
     }
   },
   "hooks" : [
