@@ -1,3 +1,44 @@
 .header {
-    background: $dark-electric-blue
+    background: $dark-electric-blue;
+    display:flexbox;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.header__navigation{
+    display:none;
+    @include md {
+        display: block;
+	}
+}
+.mobile_menu{
+    display:block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    @include md {
+        display: none;}
+    }
+
+.mobile_logo{
+    @include md {
+        display: none;}
+    }
+
+.desktop_logo {
+    display:none;
+    padding-bottom: 20px;
+    @include md {
+        display: inline-block;}
+}
+.header__link {
+    text-decoration: none;
+    color: $cultured;
+    display: inline-block;
+    padding: 32px;
+    position: relative;
+    align-items: center;
 }

@@ -1,0 +1,42 @@
+.welcome {
+    text-align: center;
+}
+.welcome_to {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 72px;
+    padding-bottom: 24px;
+    @media screen and (min-width: 768px) {
+        font-size: 24px;}
+}
+.vault_vine {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 130.4%;
+    @media screen and (min-width: 1280px) {
+        font-size: 72px;}
+} 
+.body_copy {
+    text-align: justify;
+    letter-spacing: 0.05em; 
+    font-weight: 300;
+    line-height: 150%;
+    padding: 40px 110px 8px;
+    @media screen and (min-width: 1280px) {
+        font-size: 18px;
+        padding: 40px 440px;}
+}
+.line {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.shop_button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: $rite-of-spring;
+    text-align: center;
+    border-top: 48px solid $dark-electric-blue;
+    border-bottom: 48px solid $dark-electric-blue;
+    border-left: 168px solid $dark-electric-blue;
+    border-right: 168px solid $dark-electric-blue;
+}

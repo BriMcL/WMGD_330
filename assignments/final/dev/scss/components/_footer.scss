@@ -1,0 +1,19 @@
+.footer {
+    background: $dark-electric-blue;
+    display:flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    align-items: left;
+}
+.info {
+    font-size: 8px;
+    color: $cultured;
+    font-weight:100;
+    line-height: 150%;
+    padding-right:24px;
+}
+.pinterest {
+    padding-left: 8px;  
+}

@@ -3,11 +3,24 @@
 ============= */
 body {
 	font-family: 'Lato', sans-serif;
-	font-family: 'Playfair Display', serif;
 	font-size: 16px;
+	color: $japanese-indigo;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0.2em;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: $japanese-indigo;
+	font-weight: normal;
+} 
+
+h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 }

@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/deploy\/contact_us.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/contact_us.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -21,6 +29,97 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/cafe_02.png" : {
+      "ft" : 32768,
+      "iS" : 60418,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cafe_02.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/cafe.png" : {
+      "ft" : 32768,
+      "iS" : 68729,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cafe.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/carousel_image.png" : {
+      "ft" : 32768,
+      "iS" : 160374,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/carousel_image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/contact.png" : {
+      "ft" : 32768,
+      "iS" : 60670,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/contact.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/doordash.png" : {
+      "ft" : 32768,
+      "iS" : 322,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/doordash.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Dots.png" : {
+      "ft" : 32768,
+      "iS" : 626,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Dots.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/facebook.png" : {
+      "ft" : 32768,
+      "iS" : 481,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/facebook.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
@@ -29,11 +128,89 @@
       "oAP" : "\/deploy\/img\/favicon.ico",
       "oF" : 0
     },
+    "\/deploy\/img\/instagram.png" : {
+      "ft" : 32768,
+      "iS" : 572,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/instagram.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/lily.png" : {
+      "ft" : 32768,
+      "iS" : 162427,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/lily.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/mobile_logo.png" : {
       "ft" : 32768,
       "iS" : 3519,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/mobile_logo.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/nav_icon.png" : {
+      "ft" : 32768,
+      "iS" : 299,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/nav_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our_story.png" : {
+      "ft" : 32768,
+      "iS" : 53050,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our_story.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/pinterest.png" : {
+      "ft" : 32768,
+      "iS" : 559,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/pinterest.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/resources.png" : {
+      "ft" : 32768,
+      "iS" : 65758,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/resources.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -47,6 +224,19 @@
       "iS" : 4106,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/text_logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/white_flower.png" : {
+      "ft" : 32768,
+      "iS" : 48749,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/white_flower.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -126,12 +316,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dev\/components\/header.html" : {
+    "\/dev\/components\/footer.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/components\/header.html",
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/footer.html",
       "oF" : 0
     },
     "\/dev\/components\/header.kit" : {
@@ -141,6 +331,30 @@
       "oA" : 1,
       "oAP" : "\/dev\/components\/header.html",
       "oF" : 0
+    },
+    "\/dev\/components\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/main-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/main-content.html",
+      "oF" : 0
+    },
+    "\/dev\/contact_us.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/contact_us.html",
+      "oF" : 2
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
