@@ -344,12 +344,11 @@ h3, h4, h5, h6 {
   padding-top: 30px;
   padding-bottom: 30px;
   justify-content: space-between;
-  text-align: center;
-  align-items: center; }
+  text-align: center; }
 
 .header__navigation {
   display: none; }
-  @media (min-width: 768px) {
+  @media (min-width: 834px) {
     .header__navigation {
       display: block; } }
 .mobile_menu {
@@ -357,17 +356,17 @@ h3, h4, h5, h6 {
   position: absolute;
   top: 20px;
   left: 20px; }
-  @media (min-width: 768px) {
+  @media (min-width: 834px) {
     .mobile_menu {
       display: none; } }
-@media (min-width: 768px) {
+@media (min-width: 834px) {
   .mobile_logo {
     display: none; } }
 
 .desktop_logo {
   display: none;
   padding-bottom: 20px; }
-  @media (min-width: 768px) {
+  @media (min-width: 834px) {
     .desktop_logo {
       display: inline-block; } }
 .header__link {
@@ -399,31 +398,216 @@ h3, h4, h5, h6 {
 .body_copy {
   text-align: justify;
   letter-spacing: 0.05em;
+  width: 45%;
+  max-width: 400px;
   font-weight: 300;
   line-height: 150%;
-  padding: 40px 110px 8px; }
-  @media screen and (min-width: 1280px) {
+  margin: 0 auto; }
+  @media (min-width: 1280px) {
     .body_copy {
-      font-size: 18px;
-      padding: 40px 440px; } }
+      font-size: 18px; } }
 .line {
   margin-left: 110px;
-  margin-right: 110px; }
+  margin-right: 110px;
+  margin-bottom: 72px;
+  margin-top: 48px; }
+  @media (min-width: 1280px) {
+    .line {
+      margin-left: 540px;
+      margin-right: 540px; } }
+.hero_bg {
+  background: #4E7276;
+  padding: 20px; }
 
 .shop_button {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: #FFECA8;
-  text-align: center;
-  border-top: 48px solid #4E7276;
-  border-bottom: 48px solid #4E7276;
-  border-left: 168px solid #4E7276;
-  border-right: 168px solid #4E7276; }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px 24px;
+  width: 192px;
+  height: 56px;
+  background: #FFECA8;
+  margin: 0 auto; }
+  @media (min-width: 1280px) {
+    .shop_button {
+      width: 225px;
+      height: auto; } }
+.first_bg {
+  background: #F7F9EE; }
+
+.second_bg {
+  background: #F7F9EE;
+  padding-bottom: 20px; }
 
 .looking_for {
   text-align: center;
   padding-top: 64px; }
 
+.image_buttons {
+  display: flex;
+  flex-wrap: wrap; }
+  @media (min-width: 834px) {
+    .image_buttons {
+      padding-left: 120px;
+      padding-right: 120px; } }
+  @media (min-width: 1280px) {
+    .image_buttons {
+      display: flex;
+      flex-wrap: nowrap; } }
+.cafe_container {
+  position: relative;
+  width: 50%; }
+
+.cafe_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.cafe_type {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFECA8;
+  padding: 12px 24px; }
+
+.story_container {
+  position: relative;
+  width: 50%; }
+
+.story_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.story_type {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFECA8;
+  padding: 12px 18px; }
+
+.resources_container {
+  position: relative;
+  width: 50%; }
+
+.resources_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.resources_type {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFECA8;
+  padding: 12px 24px; }
+
+.contact_container {
+  position: relative;
+  width: 50%; }
+
+.contact_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.contact_type {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFECA8;
+  padding: 12px 24px; }
+
+.questions {
+  text-align: center;
+  padding-bottom: 64px; }
+
+@media (min-width: 834px) {
+  .q_a {
+    font-size: 36px; } }
+
+.carousel_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  max-width: 824px; }
+
+.dots {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: auto; }
+
+.intro_bullet {
+  text-align: center;
+  letter-spacing: 0.05em;
+  width: 100%;
+  max-width: 700px;
+  line-height: 150%;
+  margin: 0 auto;
+  padding-top: 64px; }
+
+.bullet {
+  text-align: left;
+  letter-spacing: 0.05em;
+  width: 100%;
+  max-width: 700px;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0 auto; }
+
+.bullet_list {
+  padding-bottom: 64px; }
+
+.lily {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  height: auto; }
+  @media (min-width: 834px) {
+    .lily {
+      display: none; } }
+.double_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  height: auto; }
+
+.bottom_body {
+  text-align: justify;
+  letter-spacing: 0.05em;
+  width: 100%;
+  max-width: 700px;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0 auto; }
+
+.touch_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px 24px;
+  width: 192px;
+  height: 56px;
+  background: #FFECA8;
+  margin: 0 auto; }
+  @media (min-width: 1280px) {
+    .touch_button {
+      width: 225px;
+      height: auto; } }
 .footer {
   background: #4E7276;
   display: flex;
@@ -438,7 +622,40 @@ h3, h4, h5, h6 {
   color: #F7F9EE;
   font-weight: 100;
   line-height: 150%;
-  padding-right: 24px; }
-
+  padding-right: 24px;
+  padding-bottom: 7px; }
+  @media (min-width: 834px) {
+    .info {
+      font-size: 16px; } }
 .pinterest {
-  padding-left: 8px; }
+  padding-left: 8px;
+  width: 24px;
+  height: auto; }
+  @media (min-width: 834px) {
+    .pinterest {
+      width: 40px;
+      height: auto; } }
+.facebook {
+  padding-left: 8px;
+  width: 24px;
+  height: auto; }
+  @media (min-width: 834px) {
+    .facebook {
+      width: 40px;
+      height: auto; } }
+.instagram {
+  padding-left: 8px;
+  width: 24px;
+  height: auto; }
+  @media (min-width: 834px) {
+    .instagram {
+      width: 40px;
+      height: auto; } }
+.doordash {
+  padding-left: 8px;
+  width: 24px;
+  height: auto; }
+  @media (min-width: 834px) {
+    .doordash {
+      width: 40px;
+      height: auto; } }

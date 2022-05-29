@@ -19,24 +19,40 @@
 .body_copy {
     text-align: justify;
     letter-spacing: 0.05em; 
+    width: 45%;
+    max-width: 400px;
     font-weight: 300;
     line-height: 150%;
-    padding: 40px 110px 8px;
-    @media screen and (min-width: 1280px) {
+    margin:0 auto;
+    @include lg(){
         font-size: 18px;
-        padding: 40px 440px;}
+    }
 }
 .line {
     margin-left: 110px;
     margin-right: 110px;
+    margin-bottom: 72px;
+    margin-top: 48px;
+    @include lg {
+        margin-left: 540px;
+        margin-right: 540px;
+    }
+}
+.hero_bg {
+    background: $dark-electric-blue;
+    padding: 20px;
 }
 .shop_button {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: $rite-of-spring;
-    text-align: center;
-    border-top: 48px solid $dark-electric-blue;
-    border-bottom: 48px solid $dark-electric-blue;
-    border-left: 168px solid $dark-electric-blue;
-    border-right: 168px solid $dark-electric-blue;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 15px 24px;
+    width: 192px;
+    height: 56px;
+    background: $rite-of-spring;
+    margin: 0 auto;
+    @include lg {
+        width: 225px;
+        height: auto;
+    }
 }
