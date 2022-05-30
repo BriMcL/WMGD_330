@@ -180,6 +180,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/newsletter.jpg" : {
+      "ft" : 16384,
+      "iS" : 342683,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/newsletter.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/our_story.png" : {
       "ft" : 32768,
       "iS" : 53050,
@@ -346,6 +359,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/main-content.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/newsletter.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/newsletter.html",
       "oF" : 0
     },
     "\/dev\/contact_us.kit" : {
@@ -520,6 +541,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_newsletter.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_newsletter.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

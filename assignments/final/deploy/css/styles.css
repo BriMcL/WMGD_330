@@ -589,7 +589,7 @@ h3, h4, h5, h6 {
 .bottom_body {
   text-align: justify;
   letter-spacing: 0.05em;
-  width: 100%;
+  width: 90%;
   max-width: 700px;
   font-weight: 300;
   line-height: 150%;
@@ -659,3 +659,12 @@ h3, h4, h5, h6 {
     .doordash {
       width: 40px;
       height: auto; } }
+.newsletter {
+  background-color: rgba(247, 249, 238, 0.75);
+  padding: 45px; }
+
+.background {
+  padding: 24 px 32px;
+  background-image: url("../img/newsletter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
