@@ -1,0 +1,68 @@
+.contact_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hours_bg {
+    background: $dark-electric-blue;
+    width: 290px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.hours_card {
+    display:flexbox;
+    flex-direction:row;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 24px;
+    width: 220px;
+    height: 240px;
+    background: $cultured;
+    margin: 0 auto;
+    @include lg {
+        width: 225px;
+        height: auto;
+    }
+}
+.touch_bg {
+    background: $dark-electric-blue;
+    width: 290px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.touch_card {
+    display:flexbox;
+    flex-direction:row;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 24px;
+    width: 220px;
+    height: 240px;
+    background: $cultured;
+    margin: 0 auto;
+    @include lg {
+        width: 225px;
+        height: auto;
+    }
+}
+.visit_bg {
+    background: $dark-electric-blue;
+    width: 290px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.visit_card {
+    display:flexbox;
+    flex-direction:row;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 24px;
+    width: 220px;
+    height: 240px;
+    background: $cultured;
+    margin: 0 auto;
+    @include lg {
+        width: 225px;
+        height: auto;
+    }
+}

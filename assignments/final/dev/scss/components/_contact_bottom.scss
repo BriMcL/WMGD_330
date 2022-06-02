@@ -1,0 +1,24 @@
+.location_text {
+    text-align: center;
+    letter-spacing: 0.05em; 
+    width: 100%;
+    max-width: 700px;
+    line-height: 150%;
+    margin:0 auto;
+    padding-top: 64px;
+}
+.contact_bottom {
+    display: flex;
+    flex-direction: column;
+}
+.map_image {
+    display: flexbox;
+    justify-content: space-between;
+    text-align: center;
+    width: 350px;
+    height: auto;
+}
+.leaf_image {
+    width: 350px;
+    height: auto;
+}

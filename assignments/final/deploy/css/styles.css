@@ -659,12 +659,126 @@ h3, h4, h5, h6 {
     .doordash {
       width: 40px;
       height: auto; } }
-.newsletter {
-  background-color: rgba(247, 249, 238, 0.75);
-  padding: 45px; }
-
 .background {
-  padding: 24 px 32px;
+  padding: 24px 32px;
   background-image: url("../img/newsletter.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+
+.newsletter {
+  padding: 45px;
+  background-color: rgba(247, 249, 238, 0.75);
+  text-align: center; }
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  background: #FFECA8;
+  margin: 0 auto; }
+
+.hero_contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto; }
+
+.contact_title {
+  display: none; }
+  @media (min-width: 834px) {
+    .contact_title {
+      display: block;
+      text-align: center;
+      padding: 88px;
+      font-weight: 500; } }
+.contact_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.hours_bg {
+  background: #4E7276;
+  width: 290px;
+  padding: 20px;
+  margin-top: 40px; }
+
+.hours_card {
+  display: flexbox;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 24px;
+  width: 220px;
+  height: 240px;
+  background: #F7F9EE;
+  margin: 0 auto; }
+  @media (min-width: 1280px) {
+    .hours_card {
+      width: 225px;
+      height: auto; } }
+.touch_bg {
+  background: #4E7276;
+  width: 290px;
+  padding: 20px;
+  margin-top: 40px; }
+
+.touch_card {
+  display: flexbox;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 24px;
+  width: 220px;
+  height: 240px;
+  background: #F7F9EE;
+  margin: 0 auto; }
+  @media (min-width: 1280px) {
+    .touch_card {
+      width: 225px;
+      height: auto; } }
+.visit_bg {
+  background: #4E7276;
+  width: 290px;
+  padding: 20px;
+  margin-top: 40px; }
+
+.visit_card {
+  display: flexbox;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 24px;
+  width: 220px;
+  height: 240px;
+  background: #F7F9EE;
+  margin: 0 auto; }
+  @media (min-width: 1280px) {
+    .visit_card {
+      width: 225px;
+      height: auto; } }
+.location_text {
+  text-align: center;
+  letter-spacing: 0.05em;
+  width: 100%;
+  max-width: 700px;
+  line-height: 150%;
+  margin: 0 auto;
+  padding-top: 64px; }
+
+.contact_bottom {
+  display: flex;
+  flex-direction: column; }
+
+.map_image {
+  display: flexbox;
+  justify-content: space-between;
+  text-align: center;
+  width: 350px;
+  height: auto; }
+
+.leaf_image {
+  width: 350px;
+  height: auto; }

@@ -1,11 +1,20 @@
-.newsletter {
-    background-color: rgba(247, 249, 238, 0.75);
-    padding: 45px;
-}
-
 .background {
-    padding: 24 px 32px;
+    padding: 24px 32px;
     background-image: url('../img/newsletter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.newsletter {
+    padding: 45px;
+    background-color: rgba(247, 249, 238, 0.75);
+    text-align: center;
+}
+.submit {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    background: $rite-of-spring;
+    margin: 0 auto;
 }
