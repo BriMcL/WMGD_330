@@ -42,15 +42,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/cafe.png" : {
-      "ft" : 32768,
-      "iS" : 68729,
+    "\/deploy\/img\/cafe.jpg" : {
+      "ft" : 16384,
+      "iS" : 1667113,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/cafe.png",
+      "oAP" : "\/deploy\/img\/cafe.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -68,19 +68,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/carousel_image.png" : {
-      "ft" : 32768,
-      "iS" : 160374,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/carousel_image.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/contact_hero.jpg" : {
       "ft" : 16384,
       "iS" : 64687,
@@ -94,15 +81,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/contact.png" : {
-      "ft" : 32768,
-      "iS" : 60670,
+    "\/deploy\/img\/contact.jpg" : {
+      "ft" : 16384,
+      "iS" : 1121229,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/contact.png",
+      "oAP" : "\/deploy\/img\/contact.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -122,12 +109,12 @@
     },
     "\/deploy\/img\/Dots.png" : {
       "ft" : 32768,
-      "iS" : 626,
+      "iS" : 2550,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Dots.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -245,15 +232,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_story.png" : {
-      "ft" : 32768,
-      "iS" : 53050,
+    "\/deploy\/img\/our_story.jpg" : {
+      "ft" : 16384,
+      "iS" : 1134534,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_story.png",
+      "oAP" : "\/deploy\/img\/our_story.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -284,15 +271,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/resources.png" : {
-      "ft" : 32768,
-      "iS" : 65758,
+    "\/deploy\/img\/resources.jpg" : {
+      "ft" : 16384,
+      "iS" : 1416557,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/resources.png",
+      "oAP" : "\/deploy\/img\/resources.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

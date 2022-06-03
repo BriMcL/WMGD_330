@@ -599,18 +599,22 @@ h3, h4, h5, h6 {
   @media (min-width: 1280px) {
     .double_image {
       display: none; } }
-@media (min-width: 1280px) {
-  .white_flower {
-    width: 460px;
-    height: auto;
-    padding: 16px; } }
-
-@media (min-width: 1280px) {
-  .cafe_02 {
-    width: 460px;
-    height: auto;
-    padding: 16px; } }
-
+.white_flower {
+  width: 170px;
+  height: auto; }
+  @media (min-width: 1280px) {
+    .white_flower {
+      width: 460px;
+      height: auto;
+      padding: 16px; } }
+.cafe_02 {
+  width: 170px;
+  height: auto; }
+  @media (min-width: 1280px) {
+    .cafe_02 {
+      width: 460px;
+      height: auto;
+      padding: 16px; } }
 @media (min-width: 1280px) {
   .lily_2 {
     width: 460px;
