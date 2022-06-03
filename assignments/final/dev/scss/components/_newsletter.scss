@@ -1,20 +1,40 @@
+.nl {
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
 .background {
     padding: 24px 32px;
     background-image: url('../img/newsletter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin:64px;
+    max-width: 830px;
 }
 .newsletter {
     padding: 45px;
     background-color: rgba(247, 249, 238, 0.75);
-    text-align: center;
+    text-align: left;
 }
-.submit {
+.email_nl {
+    width: 270px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include lg{
+        width: 650px
+    }
+}
+.submit_nl {
     display:flex;
     flex-direction:row;
     justify-content: center;
+    padding-top: 4px;
     width: 100px;
     height: 30px;
     background: $rite-of-spring;
-    margin: 0 auto;
+    margin-left: 170px;
+    @include lg {
+        margin-left: 550px;
+    }
 }
