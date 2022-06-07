@@ -1,58 +1,71 @@
 .welcome {
     text-align: center;
 }
+
 .welcome_to {
     font-size: 18px;
     font-weight: 300;
     padding-top: 72px;
     padding-bottom: 24px;
-    @include md{
-        font-size: 24px;}
+
+    @include md {
+        font-size: 24px;
+    }
 }
+
 .vault_vine {
     font-size: 36px;
     font-weight: 500;
     line-height: 130%;
-    @include lg  {
-        font-size: 72px;}
-} 
+
+    @include lg {
+        font-size: 72px;
+    }
+}
+
 .body_copy {
     text-align: justify;
-    letter-spacing: 0.05em; 
+    letter-spacing: 0.05em;
     width: 45%;
     max-width: 400px;
     font-weight: 300;
     line-height: 150%;
-    margin:0 auto;
+    margin: 0 auto;
+
     @include lg {
         font-size: 18px;
     }
 }
+
 .line {
     margin-left: 110px;
     margin-right: 110px;
     margin-bottom: 72px;
     margin-top: 48px;
+
     @include lg {
         margin-left: 540px;
         margin-right: 540px;
     }
 }
+
 .hero_bg {
     background: $dark-electric-blue;
     padding: 20px;
 }
+
 .shop_button {
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     padding: 10px 24px;
     width: 192px;
     height: 56px;
-    color: $japanese-indigo; 
-    font-size: 24px; 
+    color: $japanese-indigo;
+    font-size: 24px;
     background: $rite-of-spring;
     margin: 0 auto;
+
     @include lg {
         width: 225px;
         height: auto;

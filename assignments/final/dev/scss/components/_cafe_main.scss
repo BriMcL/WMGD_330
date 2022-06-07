@@ -1,12 +1,14 @@
 .hours {
     text-align: center;
+
     @include md {
         font-size: 36px;
     }
 }
+
 .green_bg {
     background: $cultured;
-    padding-top:32px;
+    padding-top: 32px;
     padding-bottom: 32px;
     text-align: center;
 }
@@ -15,13 +17,14 @@
     @include md {
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content: center;
         text-align: left;
     }
 }
 
 .menu_title {
     padding-top: 32px;
+
     @include md {
         padding-right: 120px;
     }
@@ -29,32 +32,37 @@
 
 .menu_body {
     text-align: center;
-    letter-spacing: 0.05em; 
+    letter-spacing: 0.05em;
     width: 85%;
     max-width: 800px;
     line-height: 150%;
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 48px;
     padding-bottom: 48px;
 }
+
 .coffee_image {
     width: 50%;
     height: auto;
     padding: 8px;
+
     @include md {
         padding: 16px;
     }
 }
+
 .table_image {
     width: 50%;
     height: auto;
-    padding:8px;
+    padding: 8px;
+
     @include md {
         padding: 16px;
     }
 }
+
 .cafe_double {
-    display:flex;
+    display: flex;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;

@@ -1,38 +1,46 @@
 .header {
     background: $dark-electric-blue;
-    display:flexbox;
+    display: flexbox;
     padding-top: 30px;
     padding-bottom: 30px;
     justify-content: space-between;
     text-align: center;
 }
 
-.header__navigation{
-    display:none;
+.header__navigation {
+    display: none;
+
     @include md {
         display: block;
-	}
+    }
 }
-.mobile_menu{
-    display:block;
+
+.mobile_menu {
+    display: block;
     position: absolute;
     top: 20px;
     left: 20px;
-    @include md {
-        display: none;}
-    }
 
-.mobile_logo{
     @include md {
-        display: none;}
+        display: none;
     }
+}
+
+.mobile_logo {
+    @include md {
+        display: none;
+    }
+}
 
 .desktop_logo {
-    display:none;
+    display: none;
     padding-bottom: 20px;
+
     @include md {
-        display: inline-block;}
+        display: inline-block;
+    }
 }
+
 .header__link {
     text-decoration: none;
     color: $cultured;
