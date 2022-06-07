@@ -15,4 +15,8 @@
         padding: 88px;
         font-weight: 500;
     }
+
+    @include lg {
+        font-size: 72px;
+    }
 }

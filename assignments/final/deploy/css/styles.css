@@ -759,6 +759,9 @@ h3, h4, h5, h6 {
       text-align: center;
       padding: 88px;
       font-weight: 500; } }
+  @media (min-width: 1280px) {
+    .contact_title {
+      font-size: 72px; } }
 .message_box {
   display: flex;
   flex-direction: column;
@@ -958,7 +961,25 @@ h3, h4, h5, h6 {
 .hero_cafe {
   width: 100%;
   height: auto; }
-
+  @media (min-width: 1280px) {
+    .hero_cafe {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: auto;
+      max-width: 824px; } }
+.cafe_title {
+  display: none; }
+  @media (min-width: 834px) {
+    .cafe_title {
+      display: block;
+      text-align: center;
+      padding-top: 48px;
+      font-weight: 500; } }
+  @media (min-width: 1280px) {
+    .cafe_title {
+      font-size: 72px; } }
 .hours {
   text-align: center; }
   @media (min-width: 834px) {
