@@ -1,0 +1,18 @@
+.cafe_hero {
+    text-align: justify;
+    letter-spacing: 0.05em; 
+    width: 85%;
+    max-width: 800px;
+    line-height: 150%;
+    margin:0 auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    @include lg {
+        font-size: 18px;
+    }
+}
+
+.hero_cafe {
+    width:100%;
+    height:auto
+}

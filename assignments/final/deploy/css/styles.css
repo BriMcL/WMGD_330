@@ -385,14 +385,14 @@ h3, h4, h5, h6 {
   font-weight: 300;
   padding-top: 72px;
   padding-bottom: 24px; }
-  @media screen and (min-width: 768px) {
+  @media (min-width: 834px) {
     .welcome_to {
       font-size: 24px; } }
 .vault_vine {
   font-size: 36px;
   font-weight: 500;
-  line-height: 130.4%; }
-  @media screen and (min-width: 1280px) {
+  line-height: 130%; }
+  @media (min-width: 1280px) {
     .vault_vine {
       font-size: 72px; } }
 .body_copy {
@@ -943,3 +943,73 @@ h3, h4, h5, h6 {
     .leaf_image {
       width: 100%;
       max-width: 635px; } }
+.cafe_hero {
+  text-align: justify;
+  letter-spacing: 0.05em;
+  width: 85%;
+  max-width: 800px;
+  line-height: 150%;
+  margin: 0 auto;
+  padding-top: 48px;
+  padding-bottom: 48px; }
+  @media (min-width: 1280px) {
+    .cafe_hero {
+      font-size: 18px; } }
+.hero_cafe {
+  width: 100%;
+  height: auto; }
+
+.hours {
+  text-align: center; }
+  @media (min-width: 834px) {
+    .hours {
+      font-size: 36px; } }
+.green_bg {
+  background: #F7F9EE;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center; }
+
+@media (min-width: 834px) {
+  .menu_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left; } }
+
+.menu_title {
+  padding-top: 32px; }
+  @media (min-width: 834px) {
+    .menu_title {
+      padding-right: 120px; } }
+.menu_body {
+  text-align: center;
+  letter-spacing: 0.05em;
+  width: 85%;
+  max-width: 800px;
+  line-height: 150%;
+  margin: 0 auto;
+  padding-top: 48px;
+  padding-bottom: 48px; }
+
+.coffee_image {
+  width: 50%;
+  height: auto;
+  padding: 8px; }
+  @media (min-width: 834px) {
+    .coffee_image {
+      padding: 16px; } }
+.table_image {
+  width: 50%;
+  height: auto;
+  padding: 8px; }
+  @media (min-width: 834px) {
+    .table_image {
+      padding: 16px; } }
+.cafe_double {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto; }

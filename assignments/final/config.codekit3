@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
+    "\/deploy\/cafe.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/cafe.html",
+      "oF" : 0
+    },
     "\/deploy\/contact_us.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -42,6 +50,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/cafe_hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 1615166,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cafe_hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/cafe.jpg" : {
       "ft" : 16384,
       "iS" : 1667113,
@@ -61,6 +82,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/carousel_image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/coffee.jpg" : {
+      "ft" : 16384,
+      "iS" : 712127,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/coffee.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -284,6 +318,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/table.jpg" : {
+      "ft" : 16384,
+      "iS" : 590101,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/table.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/text_logo.png" : {
       "ft" : 32768,
       "iS" : 4106,
@@ -380,6 +427,30 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/dev\/cafe.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/cafe.html",
+      "oF" : 2
+    },
+    "\/dev\/components\/cafe_hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/cafe_hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/cafe_main.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/cafe_main.html",
+      "oF" : 0
     },
     "\/dev\/components\/contact_bottom.kit" : {
       "cB" : 0,
@@ -543,6 +614,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_cafe_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_cafe_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_cafe_main.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_cafe_main.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
